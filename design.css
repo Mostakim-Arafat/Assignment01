@@ -140,11 +140,36 @@
     margin:120px;
     display: flex;
     max-width: 1360px;
+    gap:60px;
 
 }
 .sec-text{
-    margin:102px 0px 102px 60px;
+  text-align: left;
+  margin: 102px 0px;
+  border: 3px rebeccapurple solid;
     
+}
+.sec-text ul{
+    margin-top: 40px;
+}
+.sec-text ul li{
+    list-style: none;
+    margin-bottom: 16px;
+}
+.sec-p1{
+    color: #469165;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.sec-h1{
+    color:#001931;
+    font-size: 48px;
+    font-weight:700;
+}
+.sec-p2{
+    margin-top: 16px;
+     
 }
 /*challange*/
 .early{
