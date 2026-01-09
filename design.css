@@ -33,7 +33,7 @@
 }
 /*banner part*/
 .banner{
-    background-image: url(/Assignment/NO1/B13-A01-Knowledge-Vault/assets/hero-bg.png);
+    background-image: url(./B13-A01-Knowledge-Vault/assets/hero-bg.png);
     padding: 115.5px 120px 179.5px 120px;
 }
 .ban-contain{
@@ -66,7 +66,7 @@
 }
 #ban-h11,#ban-h12{
     font-size: 72px;
-    font-weight: 600;
+    font-weight: 700;
 }
 #ban-h11{
     color:white;
@@ -78,6 +78,7 @@
 .ban-p{
     color: white;
     margin-bottom: 32px;
+    font-size: 18px;
 }
 .btn button{
     margin-right: 16px;
@@ -146,7 +147,7 @@
 .sec-text{
   text-align: left;
   margin: 102px 0px;
-  border: 3px rebeccapurple solid;
+  /* border: 3px rebeccapurple solid; */
     
 }
 .sec-text ul{
