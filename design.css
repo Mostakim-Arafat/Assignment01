@@ -31,3 +31,173 @@
     list-style: none;
     gap:32px;
 }
+/*banner part*/
+.banner{
+    background-image: url(/Assignment/NO1/B13-A01-Knowledge-Vault/assets/hero-bg.png);
+    padding: 115.5px 120px 179.5px 120px;
+}
+.ban-contain{
+    max-width: 1360px;
+    text-align: center;
+}
+ .part{
+    background-color: white;
+    color:#469165;
+    border:none;
+    border-radius: 1000px;
+    max-width: 229px;
+    margin: 0 auto;
+    padding:8px 12px;
+    display: flex;
+    gap:8px;
+    align-items: center;
+    margin-bottom: 16px;
+
+}
+.part p{
+    font-weight: 500;
+    font-size: 16px;
+}
+.tiny{
+    width: 16px;
+    height: 16px;
+    background-color: #30B868;
+    border-radius: 8px;
+}
+#ban-h11,#ban-h12{
+    font-size: 72px;
+    font-weight: 600;
+}
+#ban-h11{
+    color:white;
+}
+#ban-h12{
+    color:#30B868;
+    margin-bottom: 16px;
+}
+.ban-p{
+    color: white;
+    margin-bottom: 32px;
+}
+.btn button{
+    margin-right: 16px;
+}
+/*card-section*/
+.card-section{
+    padding: 48px 120px;
+    text-align: center;
+     /* border:3px red solid;  */
+}
+.card-section h1{
+    color:#001931;
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 16px;
+}
+.card-section p{
+    color:#627382;
+    font-size: 16px;
+    padding-bottom: 44px;
+}
+.card-contain{
+    display: flex;
+    gap:24px;
+}
+.card{
+    max-width: 322px;
+   text-align: center;
+   padding:69.5px 24px;
+   border:none;
+   border-radius: 8px;
+   box-shadow: 0px 0px 8px 0px #000000;
+   background-color: #FFFFFF;
+}
+.card-img{
+    background-color: #F95555;
+    border:none;
+    border-radius: 50%;
+    max-width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+.card h3{
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 24px;
+
+}
+.card p{
+    color: #627382;
+}
+
+/*sec-brain*/
+
+.sec-brain{
+    margin:120px;
+    display: flex;
+    max-width: 1360px;
+
+}
+.sec-text{
+    margin:102px 0px 102px 60px;
+    
+}
+/*challange*/
+.early{
+    margin:2px 120px 120px 120px;
+    background-color: #F7F6F2;
+    text-align: center;
+}
+.early-text {
+   padding-bottom: 80px;
+   font-size: 16px;
+    color:#627382;
+}
+.early h2{
+    color:#001931;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 80px;
+    padding-bottom: 16px;
+}
+.early-p {
+    font-size: 16px;
+    color:#627382;
+    padding-bottom: 24px;
+}
+.early button{
+    box-shadow: 0px 10px 20px 0px #000000;
+    margin-bottom: 16px;
+}
+/*footer*/
+.foot{
+    background-color: #001931;
+    padding: 120px 120px 0px 120px;
+    color:white;
+}
+.foot-contain{
+   display: flex;
+   justify-content: space-between;
+   max-width: 1360px;
+   margin-bottom: 80px;
+
+}
+.last {
+    /* border: 3px red solid; */
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top:30px;
+    border-top:1px #E5E7EB solid;
+}
+.link p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.link li {
+    margin-right:16px;
+}
