@@ -1,0 +1,33 @@
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+.inter,body{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.nav-container{
+    background-color: #FFFFFF;
+    display: flex;
+    padding: 16px 120px;
+    justify-content: space-around;
+    /* border:3px red solid; */
+    align-items: center;
+}
+.button{
+    background-color:#30B868 ;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding:12.6px 16px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.menu ul {
+    display: flex;
+    list-style: none;
+    gap:32px;
+}
