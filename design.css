@@ -25,6 +25,10 @@
     padding:12.6px 16px;
     font-weight: 600;
     font-size: 16px;
+    transition: transform 0.3s ease;
+}
+.button:hover{
+    transform: scale(0.9);
 }
 .menu ul {
     display: flex;
@@ -33,7 +37,7 @@
 }
 /*banner part*/
 .banner{
-    background-image: url(./B13-A01-Knowledge-Vault/assets/hero-bg.png);
+    background-image: url("./B13-A01-Knowledge-Vault/assets/hero-bg.png");
     padding: 115.5px 120px 179.5px 120px;
 }
 .ban-contain{
@@ -87,7 +91,6 @@
 .card-section{
     padding: 48px 120px;
     text-align: center;
-     /* border:3px red solid;  */
 }
 .card-section h1{
     color:#001931;
@@ -147,7 +150,6 @@
 .sec-text{
   text-align: left;
   margin: 102px 0px;
-  /* border: 3px rebeccapurple solid; */
     
 }
 .sec-text ul{
